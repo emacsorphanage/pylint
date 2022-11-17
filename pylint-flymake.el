@@ -31,10 +31,9 @@
          (local-file (file-relative-name
                       temp-file
                       (file-name-directory buffer-file-name))))
-    (list (or (executable-find "epylint")
-              (expand-file-name "epylint.py"
-                                (file-name-directory
-                                 (or load-file-name buffer-file-name))))
+    (list (expand-file-name "epylint.py"
+			    (file-name-directory
+			     (locate-library "pylint-flymake")))
           (list local-file))))
 
 (when (require 'flymake nil t)
