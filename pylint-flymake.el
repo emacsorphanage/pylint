@@ -3,7 +3,7 @@
 ;; Copyright (C) 2008 Alexandre Fayolle
 
 ;; Author: Alexandre Fayolle <alexandre.fayolle@logilab.fr>
-
+;; Keywords: languages python
 ;; SPDX-License-Identifier: GPL-2.0-or-later
 
 ;; This file is free software: you can redistribute it and/or modify

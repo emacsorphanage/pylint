@@ -1,13 +1,9 @@
 ;;; pylint.el --- minor mode for running `pylint'
 
-;; Copyright (c) 2009, 2010 Ian Eure <ian.eure@gmail.com>
+;; Copyright (C) 2009-2010 Ian Eure
 
 ;; Author: Ian Eure <ian.eure@gmail.com>
-;; Maintainer: Jonathan Kotta <jpkotta@gmail.com>
-
 ;; Keywords: languages python
-;; Version: 1.02
-
 ;; SPDX-License-Identifier: GPL-2.0-or-later
 
 ;; This file is free software: you can redistribute it and/or modify
@@ -24,7 +20,7 @@
 ;; along with this file.  If not, see <https://www.gnu.org/licenses/>.
 
 ;;; Commentary:
-;;
+
 ;; Specialized compile mode for pylint.  You may want to add the
 ;; following to your init.el:
 ;;
